@@ -4,6 +4,7 @@ body {
 
 * {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
 }
     
 h1, 
@@ -13,6 +14,7 @@ h4,
 h5,
 h6 {
     color: cadetblue; 
+    font-weight:bold;
 }
 
 h1 {
@@ -25,13 +27,9 @@ h2 {
     font-size: 1.8em;
 }
 
-p {
-    font-size: 1em;
-}
-
 .mainlist,
 .back {
-    font-size: 1.2em;
+
     font-weight: bold;
 }
 
