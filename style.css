@@ -4,7 +4,6 @@ body {
 
 * {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1em;
 }
     
 h1, 
@@ -29,7 +28,7 @@ h2 {
 
 .mainlist,
 .back {
-
+    font-size: 1em;
     font-weight: bold;
 }
 
