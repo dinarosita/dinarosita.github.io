@@ -1,4 +1,8 @@
 /* style.css */
+body {
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+}
 
 * {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
