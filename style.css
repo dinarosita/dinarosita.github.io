@@ -2,7 +2,7 @@
 
 body {
     font-size: 16px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
     
 h1, 
@@ -25,22 +25,13 @@ h2 {
     font-size: 1.8em;
 }
 
-.mainbox,
-.codebox {
+.mainbox {
     padding: 1em;
     border: 1px solid pink;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-
-.mainbox {
+    margin: auto;
     font-size: 1.4em;
     font-weight: bold;
-}
-
-.codebox {
-    font-family: monospace, Verdana, Geneva, Tahoma, sans-serif;
-    display: inline-block;
+    
 }
 
 .back {
@@ -55,8 +46,6 @@ h2 {
     height: auto;
     width: 300px;
 }
-
-
 
 .tab {
     margin-left: 1.5em;
