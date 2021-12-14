@@ -41,4 +41,18 @@ h2 {
     text-align: center;
 }
 
+.codebox {
+    font-family: monospace, Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1em;
+    border: 1px solid pink;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    display: inline-block;
+}
+
+.tab {
+    margin-left: 1.5em;
+}
+
 
