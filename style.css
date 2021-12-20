@@ -1,8 +1,16 @@
 /* style.css */
 
-body {
+html {
+    max-width: 940px;
+    margin: auto;
+    box-sizing: border-box;
     font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Barlow', 'Roboto', sans-serif; 
+    line-height: 1.4;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
     
 h1, 
@@ -11,44 +19,36 @@ h3,
 h4,
 h5,
 h6 {
-    color: cadetblue; 
+    color:cadetblue; 
     font-weight:bold;
 }
 
 h1 {
-    background-color: pink;
-    font-size: 2.5em;
+    border: 8px double pink;
+    border-radius: 20px;
+    padding: 3px;
     text-align: center;
 }
 
-h2 {
-    font-size: 1.8em;
+
+hr {
+    border: 3px solid pink;
+    margin: 3em 0 1em;
 }
 
-.mainbox {
-    padding: 1em;
-    border: 1px solid pink;
-    margin: auto;
-    font-size: 1.4em;
-    font-weight: bold;
-    
-}
-
-.back {
-    font-weight: bold;
-    text-align: center;
+strong {
+    color:firebrick;
 }
 
 .img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 40px auto;
     height: auto;
-    width: 300px;
+    width: 400px;
 }
+
+/* Text indentation */
 
 .tab {
     margin-left: 1.5em;
 }
-
-
