@@ -30,6 +30,9 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+}
 
 hr {
     border: 3px solid pink;
@@ -51,4 +54,35 @@ strong {
 
 .tab {
     margin-left: 1.5em;
+}
+
+/* nav */
+
+.html-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 8px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.html-nav li {
+    color: cadetblue;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0 5px;
+    border: 4px solid pink;
+    border-radius: 8px;
+}
+
+.html-nav li:hover {
+    background-color: rgb(247, 226, 229);
+}
+
+.html-nav li a {
+    color: inherit;
+    font-style: normal;
+    text-decoration: none;
 }
